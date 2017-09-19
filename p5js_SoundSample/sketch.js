@@ -24,7 +24,7 @@ function draw() {
     // so map() is used to convert the values to larger numbers
     scale = map(amp.getLevel(), 0, 0.5, 10, width);
     // Draw the circle based on the volume
-    fill(0,128,128);
+    fill(250,58,77);
     ellipse(width / 2, height / 2, scale, scale);
     // ellipse(width / 2, height / 2, width, width);
 }
